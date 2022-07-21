@@ -35,23 +35,7 @@ var util = {
     
   });
   
- 
   function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
 }
 
-$(function() {
-
-
-  var people = [];
-
-  $.getJSON('committee.json', function(data) {
-      $.each(data.person, function(i, f) {
-         var tblRow = + f.img + "</td>" +
-          "<td>" + f.name + "</td>" + "<td>" + f.role 
-          $(tblRow).appendTo("#committee");
-    });
-
-  });
-
-});
