@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Gwydion Smit",
+    "role": "Co-Chair",
+    "img": "gwydion"
+  },
+  {
+    "name": "Germaine George",
+    "role": "Co-Chair",
+    "img": "germaine"
+  },
+  {
+    "name": "Sambbhav Khare",
+    "role": "Dev Officer",
+    "img": "sambbhav"
+  },
+  {
+    "name": "Mehar Mehta",
+    "role": "PR Officer",
+    "img": "mehar"
+  },
+  {
+    "name": "Dhruv Sharma",
+    "role": "Graphics Officer",
+    "img": "dhruv"
+  },
+
+  
+  {
+    "name": "Ali Lakho",
+    "role": "Treasurer",
+    "img": "ali"
+  },
+  {
+    "name": "Joshua Simanullang",
+    "role": "Secretary",
+    "img": "joshua"
+  },
+  {
+    "name": "Siqi Li",
+    "role": "Procurement Officer",
+    "img": "siqi"
+  },
+  {
+    "name": "Keshav Gupta",
+    "role": "May Ball Officer",
+    "img": "keshav"
+  },
+  {
+    "name": "MJ Ponsonby",
+    "role": "Game Dev Head",
+    "img": "mj"
+  },
+  {
+    "name": "Zoya Anwar",
+    "role": "Co-Hackathon Lead",
+    "img": "zoya"
+  },
+  {
+    "name": "Mateusz Krajewski",
+    "role": "Co-Hackathon Lead",
+    "img": "mateusz"
+  },
+  {
+    "name": "Dhrishraj Garg",
+    "role": "Events Officer",
+    "img": "dhrishraj"
+  }
+]
