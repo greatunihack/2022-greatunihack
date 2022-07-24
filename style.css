@@ -664,6 +664,9 @@ footer #email {
 	.highlight-button{
 		top:90vh;
 	}
+	#navlogo{
+		font-size: large;
+	}
 }
 
 
@@ -695,6 +698,12 @@ footer #email {
 	  }
 	  nav {
 		background-color: #0e29a6;
+	}
+	.highlight-button{
+		top:90vh;
+	}
+	#navlogo{
+		font-size: larger;
 	}
 
 }
