@@ -729,6 +729,9 @@ footer #email {
 	  .wallpaper{
 		  height: max-content;
 	  }
+	  #navlogo{
+		font-size: 10px;
+	}
   }
 
   
