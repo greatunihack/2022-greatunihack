@@ -2,10 +2,85 @@
 .sarabun {
 	font-family: 'Sarabun', sans-serif;
 }
+.date-heading{
+	text-align: left; 
+	font-style: sans-serif bold; 
+	font-size: 80px;
+	color: aliceblue;
+	position: absolute;
+	top: 30vh;
 
+	left:5vw;
+	
+}
+.arrow{
+	width: 300px; 
+	height: 300px;
+	top:0;
+	
+}
 
+.sticker1{
+	min-width: 20vw;
+	max-width: 40vw; 
+	max-height: fit-content;
+	min-height: 30vw;
+	padding: 1em;
+	align-items: center;
+	
+	
+	
+}
+/* ANIMATION LEFT TO RIGHT SLIDING*/
+.slide-right {
+	width: 100%;
+	overflow: hidden;
+	margin-left: 1%;
+	max-width: 500px;
+ }
+ .slide-right {
+	animation: 2s slide-right;
+	animation-delay: 1s;
+ }
+ 
+ @keyframes slide-right {
+	 from {
+		margin-left: -500px;
+		display: none;
+	 }
+ 
+	 to {
+		margin-left: 0%;
+		display: block;
+	 }
+  }
+.guh-logo{
+	width:4vh;
+	display: inline-block;
+	justify-content: bottom;
+	align-items: center;
+	
+}
+.typewriter {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid aliceblue;/* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+							/* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: 
+	  typing 3.6s steps(25, end) 0s 1 normal both,
+	  blink-caret 600ms  steps(25,end) infinite;
+  }
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 400px }
+  }
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% {  border-color: aliceblue; }
+  }
 nav {
-	background: rgba(0, 0, 0, 0.2); 
+	background: transparent; 
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -42,20 +117,54 @@ nav a {
 nav .fa {
 	font-size: 1.4em;
 }
+.frontpage{
+	
+	width: 95%;
+	max-width: 95vw;
+	height: 100vh;
+	
+	
+}
+/* .homepage{
+	background-image: url("./img/guh_wallpaper.jpg");
+	background-size:cover;
+	
+	
+
+} */
 
 body {
+  
   background-color: #0e29a6;
   line-height: 1;
   font-family: "Montserrat";
   margin: 0 auto;
-  overflow-x: hidden;
-}
+  overflow-x:scroll;
+  /* min-height: 100vh; */
 
-.container {
-	max-width: 1200px;
+  
+  
+}
+.wallpaper {
 	width: 100%;
-	margin: 0 0 0 70px;
-	padding: 0 0 0 0;
+
+	max-height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	filter: blur(2px);
+  -webkit-filter: blur(2px);
+  background-size: cover ;
+  }
+.container {
+	max-width: 1200vw;
+	width: 90%;
+	margin: auto;
+	padding: 1px ;
 	
 }
 .main.container{
@@ -66,7 +175,7 @@ body {
 .col1 {
   
   display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 2fr 2fr;
 	gap: 0.5em;
   align-items: center;
   justify-content: center;
@@ -85,16 +194,11 @@ body {
   font-size: 100px;
 }
 
-#logo{
-  /* width: 30vw; */
-  margin-top: 3em;
-  margin-right: 0%;
-  justify-content: right;
-}
+
 
 .highlight-button {
   	
-	margin-left: 7em;
+	/* margin-left: 7em;
 	background: #fc3;
 	padding: 0.5em 2em;
 	border: 0.2em solid aliceblue;
@@ -102,9 +206,24 @@ body {
 	font-weight: bold;
 	box-shadow: 0px 0px 0.5em #A2FBCC;
 	color: black;
-	font-size: 1.2em;
+	font-size: 1.2em; */
+	text-align: left; 
+	font-style: sans-serif ; 
+	font-size: 4vh;
+	
+	position: absolute;
+	top: 80vh;
+
+	left:5.5vw;
+	color: #fc3;
+	cursor: pointer;
 	text-decoration: none;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
+}
+#about-section{
+	background-color: #5970f0;
+	/* width: 100%;
+	height: 100vh; */
 }
 .contact-us{
   color: aliceblue;
@@ -119,19 +238,30 @@ body {
 }
 
 .card1 {
-    background-color: #5970f0; 
-    color: aliceblue;
-	flex: 1;
-
+	
 	border-radius: 2em;
-	min-width: 20em;
-	margin-block-end: auto;
-	margin-bottom: 10em;
-	margin: auto;
+	min-width: 20vw;
+	
+	
+	
+	margin: 1em;
 	padding: 2em 1em 1em 1em;
 	text-align: center;
-	box-shadow: 0 0 1em rgba(0, 0, 0, 0.25);
-	font-size: x-large;
+	
+	background-color: transparent; 
+    color: aliceblue;
+	flex: 1;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	flex-wrap: wrap;
+	justify-content: center;
+	display: grid;
+	
+
+
+}
+.card1 p {
+	font-size: auto;
+	text-align: center;
 }
 
 #committee-list {
@@ -186,9 +316,10 @@ body {
 
 .notification
 {
-	
+	margin-top: 4em;
+	color: aliceblue;
 	margin-top: 2.8em;
-	background: #fc3;
+	/* background: #fc3; */
 	width: auto;
 	text-align: center;
 	height: 100%;
@@ -202,7 +333,9 @@ body {
 
 
 main {
-	background: whitesmoke;
+	
+	background: #5970f0;
+
 	color: aliceblue;
 	display: grid;
 }
@@ -234,19 +367,21 @@ main section {
 	faq
 */
 #faq {
+	
 	background: linear-gradient(#0e29a6, #0e29a6);
+	width: 100%;
 }
 
 #faq article {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	
+	
 }
 
 .card {
-	background-color: #5970f0; 
-    color: aliceblue;
-	flex: 1;
+	
 	
 	border-radius: 2em;
 	min-width: 20em;
@@ -291,7 +426,7 @@ main section {
 	Meet the Team
 */
 #about {
-	background: linear-gradient(#0e29a6, #0e29a6);
+	background: linear-gradient(#5970f0, #5970f0);
 	display: flex;
 }
 
@@ -455,6 +590,25 @@ footer #email {
 		max-width: calc(100vw - 4em);
 	}
 }
+
+/* @media only screen and (max-width: 1300px) {
+	#lastYear article {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	#lastYear article {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#lastYear article {
+		grid-template-columns: 1fr;
+	}
+	
+	  
 } */
 
 @media only screen and (max-width: 800px) {
@@ -504,6 +658,9 @@ footer #email {
 		grid-template-rows: auto auto auto;
 		gap: 5em;
 	}
+	.wallpaper{
+		height:fit-contentx
+	}
 }
 
 
@@ -536,6 +693,7 @@ footer #email {
 	  nav {
 		background-color: #0e29a6;
 	}
+
 }
 
 
@@ -549,7 +707,16 @@ footer #email {
 	  #hamburger-icon {
 		display: block;
 	  }
-	  
+	  .sticker1{
+		  width: 100%;
+		  height: 30vh;
+	  }
+	  /* .about-section{
+		height: calc(100vw - 5px);
+	  } */
+	  .wallpaper{
+		  height: max-content;
+	  }
   }
 
   
