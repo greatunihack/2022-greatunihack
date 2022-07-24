@@ -661,6 +661,9 @@ footer #email {
 	.wallpaper{
 		height:fit-contentx
 	}
+	.highlight-button{
+		top:90vh;
+	}
 }
 
 
