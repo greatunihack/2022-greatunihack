@@ -11,6 +11,9 @@
 <body>
   <nav class="sarabun">
     <span id="navlogo" ><p class="typewriter" style="font-size: 30px"><img   src="./img/gaskmask.png" alt="Logo" class="guh-logo"/>GreatUniHack 2022</p></span>
+    
+      
+  
     <ul class="navbar">
       <li><a href="#">Home</a></li>
       <li><a href="#about-section">About</a></li>
@@ -20,7 +23,7 @@
       <li><a href="https://www.instagram.com/unicsmcr/" class="fa fa-instagram" target="_blank" rel="noreferrer"></a></li>
       <!-- <li><img src="./img/logo.png" class="unics"/></li> -->
     </ul>
-    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+    <!-- <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
@@ -28,14 +31,31 @@
         <li><a href="#">Home</a></li>   
         <li><a href="#about-section">About</a></li>  
         <li><a href="#faq">FAQ</a></li>
-        <li><a href="#team">Our Team</a></li> <!--Coming from left transition need to be made-->
+        <li><a href="#team">Our Team</a></li> Coming from left transition need to be made 
         <li><a href="https://www.facebook.com/unicsmcr" class="fa fa-facebook" target="_blank" rel="noreferrer"></a></li>
         <li><a href="https://www.instagram.com/unicsmcr/" class="fa fa-instagram" target="_blank" rel="noreferrer"></a></li>
+      </ul>
+    </div> -->
+    <div id="hamburger-icon" onclick="openNav()">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+      </div>
+      
+    <!-- <span style="font-size:30px;cursor:pointer; " onclick="openNav()" class="navlogo">&#9776; </span> -->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#" onclick="closeNav()">Home</a>
+      <a href="#about-section" onclick="closeNav()">About</a> 
+      <a href="#faq" onclick="closeNav()">FAQ</a>
+      <a href="#team" onclick="closeNav()">Our Team</a> <!--Coming from left transition need to be made-->
+      <a href="https://www.facebook.com/unicsmcr" class="fa fa-facebook" target="_blank" rel="noreferrer" onclick="closeNav()"></a>
+      <a href="https://www.instagram.com/unicsmcr/" class="fa fa-instagram" target="_blank" rel="noreferrer" onclick="closeNav()"></a>
       </ul>
     </div>
   </nav>
         <div class="frontpage main container">
-          <h1 class="slide-right date-heading" >COMING SOON <br> IN AUTUMN <br>2022</h1>
+          <p class="slide-right date-heading" >COMING SOON <br> IN AUTUMN <br>2022</p>
           <h4><a href="https://forms.gle/32oRmrDXBZkh2sAh8" class="highlight-button slide-right"><br>Get Updated</a></h4>
         <!-- <div class="notification" >
           <h3>Looking for sponsors!! Contact Us at <a href="mailto:hackathons@unicsmcr.com" >hackathons@unicsmcr.com</a></h3>
@@ -104,7 +124,7 @@
       <section id="faq">
         <a href="#faq"></a>
         <div class="container">
-          <h1 class="slide-right" style="text-align:center">Frequently Asked Questions</h1>
+          <h1 class="slide-right" style="font-size: 10vw;text-align: center;">FAQ</h1>
           <article>
               <div class="card">
                 <img src="./img/icons/hacker.png" alt="">
