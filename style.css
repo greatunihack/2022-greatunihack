@@ -7,10 +7,9 @@
 	font-style: sans-serif bold; 
 	font-size: 80px;
 	color: aliceblue;
-	position: absolute;
-	top: 30vh;
-
-	left:5vw;
+	
+	
+	
 	
 }
 .arrow{
@@ -22,11 +21,12 @@
 
 .sticker1{
 	min-width: 20vw;
-	max-width: 40vw; 
-	max-height: fit-content;
+	/* max-width: 40vw;  */
+	/* max-height: fit-content; */
 	min-height: 30vw;
 	padding: 1em;
-	align-items: center;
+	align-items: right;
+	overflow: hidden;
 	
 	
 	
@@ -122,7 +122,8 @@ nav .fa {
 	width: 95%;
 	max-width: 95vw;
 	height: 100vh;
-	
+	flex-direction: column-reverse;
+	align-items: center;
 	
 }
 /* .homepage{
@@ -211,10 +212,7 @@ body {
 	font-style: sans-serif ; 
 	font-size: 4vh;
 	
-	position: absolute;
-	top: 80vh;
-
-	left:5.5vw;
+	
 	color: #fc3;
 	cursor: pointer;
 	text-decoration: none;
@@ -337,7 +335,7 @@ main {
 	background: #5970f0;
 
 	color: aliceblue;
-	display: grid;
+	/* display: grid; */
 }
 
 main aside {
@@ -559,7 +557,7 @@ footer #email {
 	align-items: center;
 	justify-content: flex-start;
 	backface-visibility: hidden;
-	background-color: #0e29a6;
+	background-color: transparent;
 	
   }
   
@@ -589,6 +587,7 @@ footer #email {
 	.container {
 		max-width: calc(100vw - 4em);
 	}
+	
 }
 
 /* @media only screen and (max-width: 1300px) {
@@ -667,6 +666,9 @@ footer #email {
 	#navlogo{
 		font-size: 10px;
 	}
+	.date-heading{
+		font-size: 40px;
+	}
 }
 
 
@@ -697,7 +699,7 @@ footer #email {
 		display: block;
 	  }
 	  nav {
-		background-color: #0e29a6;
+		background-color: transparent;
 	}
 	.highlight-button{
 		top:90vh;
@@ -706,6 +708,9 @@ footer #email {
 		font-size: 10px;
 	}
 	.opened span {display: block;}
+	.date-heading{
+		font-size: 40px;
+	}
 	
 
 }
@@ -716,7 +721,7 @@ footer #email {
 		display: none;
 	  }
 	  nav {
-		  background-color: #0e29a6;
+		  background-color: transparent;
 	  }
 	  #hamburger-icon {
 		display: block;
@@ -735,6 +740,9 @@ footer #email {
 		font-size:8px;
 	}
 	.opened span {display: block;}
+	.date-heading{
+		font-size: 60px;
+	}
 	
   }
 
@@ -809,7 +817,7 @@ footer p {
 	height: 100%;
 	width: 0;
 	position: fixed;
-	z-index: 1;
+	z-index: 2;
 	top: 0;
 	left: 0;
 	background-color: #111;
@@ -839,6 +847,7 @@ footer p {
   .sidenav .closebtn {
 	position: absolute;
 	top: 0;
+	/* z-index: -1; */
 	right: 25px;
 	font-size: 36px;
 	margin-left: 50px;
@@ -848,4 +857,5 @@ footer p {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 	.opened span {display: block;}
+	
   }

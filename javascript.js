@@ -41,10 +41,16 @@ var util = {
 
 function openNav() {
   document.getElementById("mySidenav").style.width = "100%";
+  
+  // document.getElementsByClassName("date-heading").style.zIndex = "-1";
+  document.getElementById("firstLottie").style.display = "none";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  // document.getElementsByClassName("date-heading").style.zIndex = "0";
+  document.getElementById("firstLottie").style.display = "block";
+  
 }
 
 
