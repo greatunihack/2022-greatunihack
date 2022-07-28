@@ -669,6 +669,9 @@ footer #email {
 	.date-heading{
 		font-size: 40px;
 	}
+	.wallpaper{
+		height: max-content;
+	}
 }
 
 
@@ -710,6 +713,9 @@ footer #email {
 	.opened span {display: block;}
 	.date-heading{
 		font-size: 40px;
+	}
+	.wallpaper{
+		height: max-content;
 	}
 	
 
@@ -857,5 +863,8 @@ footer p {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 	.opened span {display: block;}
+	.wallpaper{
+		height: max-content;
+	}
 	
   }
