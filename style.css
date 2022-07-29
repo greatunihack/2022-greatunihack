@@ -587,6 +587,9 @@ footer #email {
 	.container {
 		max-width: calc(100vw - 4em);
 	}
+	.wallpaper{
+		height: max-content;
+	}
 	
 }
 
@@ -672,6 +675,9 @@ footer #email {
 	.wallpaper{
 		height: max-content;
 	}
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+	.opened span {display: block;}
 }
 
 
@@ -710,6 +716,9 @@ footer #email {
 	#navlogo{
 		font-size: 10px;
 	}
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+
 	.opened span {display: block;}
 	.date-heading{
 		font-size: 40px;
@@ -749,7 +758,12 @@ footer #email {
 	.date-heading{
 		font-size: 60px;
 	}
-	
+	.wallpaper{
+		height: max-content;
+	}
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+
   }
 
   
@@ -860,11 +874,16 @@ footer p {
   }
   
   @media screen and (max-height: 450px) {
+	#navlogo{
+		font-size: 1px;
+	}
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 	.opened span {display: block;}
 	.wallpaper{
 		height: max-content;
 	}
-	
+	@keyframes typing {
+		from { width: 0 }
+		to { width: 50px }
   }
