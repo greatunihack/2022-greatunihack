@@ -888,7 +888,7 @@ footer p {
 		to { width: 50px }
 	}
   }
-  @media screen and (max-height: 414px) {
+  @media screen and (max-height: 390px) {
 	#navlogo{
 		font-size: 0.2px;
 	}
