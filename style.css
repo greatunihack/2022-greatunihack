@@ -73,7 +73,7 @@
   }
   @keyframes typing {
 	from { width: 0 }
-	to { width: 400px }
+	to { width: 40vw }
   }
   @keyframes blink-caret {
 	from, to { border-color: transparent }
@@ -726,6 +726,7 @@ footer #email {
 	.wallpaper{
 		height: max-content;
 	}
+
 	
 
 }
@@ -763,6 +764,7 @@ footer #email {
 	}
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
+	
 
   }
 
@@ -874,9 +876,7 @@ footer p {
   }
   
   @media screen and (max-height: 450px) {
-	#navlogo{
-		font-size: 1px;
-	}
+	
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 	.opened span {display: block;}
@@ -888,10 +888,8 @@ footer p {
 		to { width: 50px }
 	}
   }
-  @media screen and (max-height: 390px) {
-	#navlogo{
-		font-size: 0.2px;
-	}
+  /* @media screen and (max-height: 390px) {
+	
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 	.opened span {display: block;}
@@ -902,4 +900,5 @@ footer p {
 		from { width: 0 }
 		to { width: 3% }
 	}
-  }
+	.typewriter{font-size: 4px;}
+  } */
