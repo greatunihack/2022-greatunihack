@@ -886,4 +886,20 @@ footer p {
 	@keyframes typing {
 		from { width: 0 }
 		to { width: 50px }
+	}
+  }
+  @media screen and (max-height: 414px) {
+	#navlogo{
+		font-size: 0.2px;
+	}
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+	.opened span {display: block;}
+	.wallpaper{
+		height: max-content;
+	}
+	@keyframes typing {
+		from { width: 0 }
+		to { width: 3% }
+	}
   }
