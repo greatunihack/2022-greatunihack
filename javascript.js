@@ -1,3 +1,16 @@
+
+    const navbar = document.querySelector('.navbarw');
+window.onscroll = () => {
+    if (window.scrollY > 0) {
+        navbar.classList.add('nav-active');
+    } else {
+        navbar.classList.remove('nav-active');
+    }
+};
+
+
+
+
 var util = {
     mobileMenu() {
       $("#nav").toggleClass("nav-visible");
@@ -44,15 +57,22 @@ function openNav() {
   
   // document.getElementsByClassName("date-heading").style.zIndex = "-1";
   document.getElementById("firstLottie").style.display = "none";
+  // document.getElementsByClassName("ca3-scroll-down-link ca3-scroll-down-arrow").style.display="none";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
   // document.getElementsByClassName("date-heading").style.zIndex = "0";
   document.getElementById("firstLottie").style.display = "block";
+ 
   
 }
 
 
-
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $("navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
 
