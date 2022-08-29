@@ -1,6 +1,9 @@
 html {
 	scroll-behavior: smooth;
   }
+.gallery{
+	background: #0e29a6
+}
 @import 
 url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 .navbarw{
@@ -61,7 +64,8 @@ url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700
 	font-size: 5vw;
 	text-align: left;
 	position: relative;
-	top: 5vh;
+	margin-top: 1vh;
+	text-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.6);
 }
 .date-heading{
 	text-align: left; 
@@ -116,7 +120,7 @@ url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700
 	 }
   }
 .guh-logo{
-	width:4vh;
+	width:4.5vh;
 	display: inline-block;
 	justify-content: bottom;
 	align-items: center;
@@ -653,7 +657,6 @@ footer #email {
   .mobile-menu li {
 	margin-bottom: 10px;
   }
-
 
 
 @media only screen and (min-width: 1001px) {
