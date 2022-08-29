@@ -61,7 +61,7 @@ url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700
 	font-size: 5vw;
 	text-align: left;
 	position: relative;
-	top: 50px;
+	top: 5vh;
 }
 .date-heading{
 	text-align: left; 
@@ -962,6 +962,7 @@ footer p {
 	.wallpaper{
 		height: max-content;
 	}
+	
 	@keyframes typing {
 		from { width: 0 }
 		to { width: 50px }
