@@ -24,6 +24,7 @@ url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700
 	margin: 0px 0 0 -40px;
 	line-height: 60px;
 	position: absolute;
+	top:95%;
 	left: 50%;
 	bottom: 0px;
 	color: #FFF;
@@ -62,9 +63,9 @@ url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700
 }
 .section-heading{
 	font-size: 5vw;
-	text-align: left;
+	text-align: center;
 	position: relative;
-	margin-top: 1vh;
+	margin-top: 3vh;
 	text-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.6);
 }
 .date-heading{
