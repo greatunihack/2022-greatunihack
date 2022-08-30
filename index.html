@@ -289,31 +289,66 @@
           <h1 class="section-heading">PREVIOUS YEARS</h1>
           <p class="subtitle">When we didn't know what Covid-19 was!</p>
           <article>
-            <a data-fancybox="gallery" href="../img/previous-years/1-large.png">
-              <img src="./img/previous-years/1.png" alt="">
-            </a>
-            <a data-fancybox="gallery" href="../img/previous-years/2-large.png">
-              <img src="./img/previous-years/2.png" alt="">
-            </a>
-            <a data-fancybox="gallery" href="./img/previous-years/3-large.png">
-              <img src="./img/previous-years/3.png" alt="">
-            </a>
-            <a data-fancybox="gallery" href="./img/previous-years/4-large.png">
-              <img src="./img/previous-years/4.png" alt="">
-            </a>
-            <a data-fancybox="gallery" href="./img/previous-years/5-large.png">
-              <img src="./img/previous-years/5.png" alt="">
-            </a>
-            <a data-fancybox="gallery" href="./img/previous-years/6-large.png">
-              <img src="./img/previous-years/6.png" alt="">
-            </a>
-            <a data-fancybox="gallery" href="./img/previous-years/7-large.png">
-              <img src="./img/previous-years/7.png" alt="">
-            </a>
-            <a data-fancybox="gallery" href="./img/previous-years/8-large.png">
-              <img src="./img/previous-years/8.png" alt="">
-            </a>
+            <!-- Images used to open the lightbox -->
+                <img src="./img/previous-years/1.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+                <img src="./img/previous-years/2.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+                <img src="./img/previous-years/3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+                <img src="./img/previous-years/4.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+                <img src="./img/previous-years/5.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+                <img src="./img/previous-years/6.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+                <img src="./img/previous-years/7.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+                <img src="./img/previous-years/8.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
           </article>
+                  <!-- The Modal/Lightbox -->
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+
+            <div class="mySlides">
+              <div class="numbertext">1 / 8</div>
+              <img src="./img/previous-years/1-large.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">2 / 8</div>
+              <img src="./img/previous-years/2-large.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">3 / 8</div>
+              <img src="./img/previous-years/3-large.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">4 / 8</div>
+              <img src="./img/previous-years/4-large.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">5 / 8</div>
+              <img src="./img/previous-years/5-large.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">6 / 8</div>
+              <img src="./img/previous-years/6-large.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">7 / 8</div>
+              <img src="./img/previous-years/7-large.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">8 / 8</div>
+              <img src="./img/previous-years/8-large.png" style="width:100%">
+            </div>
+
+            <!-- Next/previous controls -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
           <div class="centered">
             <a href="https://unicsmcr.com/gallery" class="highlight-button button smooth-transitions" target="_blank" rel="noreferrer">See more!</a>
           </div>
