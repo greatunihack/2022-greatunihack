@@ -24,9 +24,8 @@ url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700
 	margin: 0px 0 0 -40px;
 	line-height: 60px;
 	position: absolute;
-	top:95%;
 	left: 50%;
-	bottom: -10px;
+	bottom: 0;
 	color: #FFF;
 	text-align: center;
 	font-size: 70px;
@@ -970,6 +969,9 @@ footer p {
 	@keyframes typing {
 		from { width: 0 }
 		to { width: 50px }
+	}
+	.ca3-scroll-down-arrow{
+		display: none;
 	}
   }
   /* @media screen and (max-height: 390px) {
