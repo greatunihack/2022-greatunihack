@@ -25,7 +25,8 @@ url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700
 	line-height: 60px;
 	position: absolute;
 	left: 50%;
-	bottom: 0;
+	top:100%;
+	bottom: -5px;
 	color: #FFF;
 	text-align: center;
 	font-size: 70px;
@@ -846,12 +847,12 @@ footer #email {
 	}
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
-	.ca3-scroll-down-arrow{
+	/* .ca3-scroll-down-arrow{
 		display: none;
 	}
 	.ca3-scroll-down-link{
 		display: none;
-	}
+	} */
 
   }
 
