@@ -846,7 +846,12 @@ footer #email {
 	}
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
-	
+	.ca3-scroll-down-arrow{
+		display: none;
+	}
+	.ca3-scroll-down-link{
+		display: none;
+	}
 
   }
 
@@ -971,6 +976,9 @@ footer p {
 		to { width: 50px }
 	}
 	.ca3-scroll-down-arrow{
+		display: none;
+	}
+	.ca3-scroll-down-link{
 		display: none;
 	}
   }
