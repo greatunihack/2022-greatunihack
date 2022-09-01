@@ -367,8 +367,8 @@ button.learn-more .circle {
   margin: 0;
   width: 3rem;
   height: 3rem;
-  background: #fc3;
-  
+  background: #0e29a6;
+
   border-radius: 1.625rem;
 }
 button.learn-more .circle .icon {
@@ -393,8 +393,8 @@ button.learn-more .circle .icon.arrow::before {
   right: 0.0625rem;
   width: 0.625rem;
   height: 0.625rem;
-  border-top: 0.125rem solid #fff;
-  border-right: 0.125rem solid #fff;
+  border-top: 0.125rem solid aliceblue;
+  border-right: 0.125rem solid aliceblue;
   transform: rotate(45deg);
 }
 button.learn-more .button-text {
@@ -416,8 +416,9 @@ button.learn-more .button-text {
 button:hover .circle {
   width: 100%;
 }
+
 button:hover .circle .icon.arrow {
-  background: #fff;
+  background: aliceblue;
   transform: translate(1rem, 0);
 }
 button:hover .button-text {
