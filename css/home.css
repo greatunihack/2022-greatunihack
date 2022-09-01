@@ -353,6 +353,7 @@ button {
   padding: 0;
   font-size: inherit;
   font-family: inherit;
+  padding-top: 4px;
 }
 button.learn-more {
   width: 12rem;
