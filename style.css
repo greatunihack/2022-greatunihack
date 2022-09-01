@@ -762,7 +762,7 @@ footer #email {
 		top:90vh;
 	}
 	#navlogo{
-		font-size: 10px;
+		font-size: 3vw;
 	}
 	.date-heading{
 		font-size: 40px;
@@ -809,7 +809,7 @@ footer #email {
 		top:90vh;
 	}
 	#navlogo{
-		font-size: 10px;
+		font-size: 4vw;
 	}
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
@@ -848,7 +848,7 @@ footer #email {
 		  height: max-content;
 	  }
 	  #navlogo{
-		font-size:8px;
+		font-size:3vw;
 	}
 	.opened span {display: block;}
 	.date-heading{
