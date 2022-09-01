@@ -249,6 +249,7 @@
   }
   button{
     font-size: 0.5em;
+    margin: auto;
   }
 }
 
@@ -258,6 +259,10 @@
   }
   #timer {
     height: 400px;
+  }
+  button{
+    font-size: 0.5em;
+    margin: auto;
   }
 }
 
