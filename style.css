@@ -1006,6 +1006,11 @@ footer p {
 	.ca3-scroll-down-link{
 		display: none;
 	}
+	.sponsors img{
+    
+		height: 400px;
+		
+	}
   }
   /* @media screen and (max-height: 390px) {
 	
