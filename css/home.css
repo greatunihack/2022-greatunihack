@@ -98,20 +98,20 @@
 }
 .countdown{
   list-style: none;
-	/* margin: 0px -16px -16px -32px; */
+	margin: auto;
 	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
 .countdown li {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	
-  font   : bold 4vw Century Gothic, Arial;
+  font   : bold 3.5vw Century Gothic, Arial;
   fill:none;
   color: transparent;
   -webkit-text-stroke-width: 1px;
