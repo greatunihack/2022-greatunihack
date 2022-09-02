@@ -940,6 +940,7 @@ footer p {
 	
 	align-items: center;
 	object-fit: contain;
+	grid-template-columns: 1fr;
 }
 .sponsors img{
     
