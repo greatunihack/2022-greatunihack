@@ -168,8 +168,12 @@ nav {
 }
 .nav-active {
     background: rgba(0, 0, 0, 0.2);
+	
    
 }
+/* .badge-display{
+	display: block;
+} */
 nav span {
 	font-size: 1.5em;
 }
@@ -677,6 +681,7 @@ footer #email {
 		margin-top: 96px;
 		margin-bottom: 32px;
 	}
+	#mlh-trust-badge{right:15vw}
 }
 @media only screen and (max-width: 1200px) {
 	.container {
@@ -685,6 +690,7 @@ footer #email {
 	.wallpaper{
 		height: max-content;
 	}
+	
 	
 }
 
@@ -773,7 +779,9 @@ footer #email {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
 	.opened span {display: block;}
+	#mlh-trust-badge{right:15vw}
 }
+
 
 
 @media only screen and (max-width: 1000px) {
@@ -821,6 +829,7 @@ footer #email {
 	.wallpaper{
 		height: max-content;
 	}
+	
 
 	
 

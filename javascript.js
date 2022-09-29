@@ -1,10 +1,13 @@
 
     const navbar = document.querySelector('.navbarw');
+    const bar = document.querySelector('.badge');
 window.onscroll = () => {
     if (window.scrollY > 0) {
         navbar.classList.add('nav-active');
+        bar.classList.add('badge-display');
     } else {
         navbar.classList.remove('nav-active');
+        bar.classList.add('badge-display');
     }
 };
 
