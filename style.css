@@ -132,6 +132,13 @@ url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700
 	align-items: center;
 	
 }
+.mlh-logo{
+	width:10vh;
+	display: inline-block;
+	justify-content: bottom;
+	align-items: center;
+	
+}
 .typewriter {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: .15em solid aliceblue;/* The typwriter cursor */
@@ -681,7 +688,7 @@ footer #email {
 		margin-top: 96px;
 		margin-bottom: 32px;
 	}
-	#mlh-trust-badge{right:15vw}
+	
 }
 @media only screen and (max-width: 1200px) {
 	.container {
