@@ -359,6 +359,7 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 	display: grid;
+	justify-items: center;
    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   
 	
@@ -484,7 +485,7 @@ main section {
 	
 	border-radius: 2em;
 	min-width: 20em;
-	
+	justify-content: center !important;
 	margin: 1em;
 	padding: 2em 1em 1em 1em;
 	text-align: center;
