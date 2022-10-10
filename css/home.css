@@ -2,7 +2,9 @@
   font-family: myFirstFont;
   src: url(/fonts/SanMarinoBeach-2OOLW.ttf);
 }
-
+.html{
+  font-family: myFirstFont;
+}
 
 .date-info{
   text-align: left;
